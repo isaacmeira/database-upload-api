@@ -1,3 +1,7 @@
+# DatabaseUploadTypescript
+Desafio 6 GoStack Nova Jornada
+
+
 <img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios.png" />
 
 <h3 align="center">
@@ -74,12 +78,8 @@ Agora que você já está com o template clonado e pronto para continuar, você 
       "type": "income",
       "category": {
         "id": "uuid",
-        "title": "Salary",
-        "created_at": "2020-04-20T00:00:49.620Z",
-        "updated_at": "2020-04-20T00:00:49.620Z",
-      },
-      "created_at": "2020-04-20T00:00:49.620Z",
-      "updated_at": "2020-04-20T00:00:49.620Z",
+        "title": "Salary"
+      }
     },
     {
       "id": "uuid",
@@ -88,12 +88,8 @@ Agora que você já está com o template clonado e pronto para continuar, você 
       "type": "income",
       "category": {
         "id": "uuid",
-        "title": "Others",
-        "created_at": "2020-04-20T00:00:49.620Z",
-        "updated_at": "2020-04-20T00:00:49.620Z",
-      },
-      "created_at": "2020-04-20T00:00:49.620Z",
-      "updated_at": "2020-04-20T00:00:49.620Z",
+        "title": "Others"
+      }
     },
     {
       "id": "uuid",
@@ -102,12 +98,8 @@ Agora que você já está com o template clonado e pronto para continuar, você 
       "type": "outcome",
       "category": {
         "id": "uuid",
-        "title": "Others",
-        "created_at": "2020-04-20T00:00:49.620Z",
-        "updated_at": "2020-04-20T00:00:49.620Z",
-      },
-      "created_at": "2020-04-20T00:00:49.620Z",
-      "updated_at": "2020-04-20T00:00:49.620Z",
+        "title": "Others"
+      }
     },
     {
       "id": "uuid",
@@ -116,12 +108,8 @@ Agora que você já está com o template clonado e pronto para continuar, você 
       "type": "outcome",
       "category": {
         "id": "uuid",
-        "title": "Recreation",
-        "created_at": "2020-04-20T00:00:49.620Z",
-        "updated_at": "2020-04-20T00:00:49.620Z",
-      },
-      "created_at": "2020-04-20T00:00:49.620Z",
-      "updated_at": "2020-04-20T00:00:49.620Z",
+        "title": "Recreation"
+      }
     }
   ],
   "balance": {
@@ -181,3 +169,5 @@ Caso você queira ver como resolver o desafio, fizemos um video explicando o pas
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
+
+Feito com 💜 by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)

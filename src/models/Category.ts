@@ -4,21 +4,27 @@ import {
   PrimaryGeneratedColumn,
   CreateDateColumn,
   UpdateDateColumn,
-} from 'typeorm';
+  OneToMany,
+} from 'typeorm'
+
+import Transaction from './Transaction'
 
 @Entity('categories')
 class Category {
   @PrimaryGeneratedColumn('uuid')
-  id: string;
+  id: string
 
   @Column()
-  title: string;
+  title: string
+
+  @OneToMany(() => Transaction, transaction => transaction.category)
+  transaction: Transaction
 
   @CreateDateColumn()
-  created_at: Date;
+  created_at: Date
 
   @UpdateDateColumn()
-  updated_at: Date;
+  updated_at: Date
 }
 
-export default Category;
+export default Category

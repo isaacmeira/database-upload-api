@@ -3,9 +3,9 @@ import {
   QueryRunner,
   TableColumn,
   TableForeignKey,
-} from 'typeorm';
+} from 'typeorm'
 
-export default class AddCategoryIdToTransactions1588273086950
+export default class AddCategoryIdToTransactions1587410239209
   implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.addColumn(
@@ -15,7 +15,7 @@ export default class AddCategoryIdToTransactions1588273086950
         type: 'uuid',
         isNullable: true,
       }),
-    );
+    )
 
     await queryRunner.createForeignKey(
       'transactions',
@@ -27,11 +27,11 @@ export default class AddCategoryIdToTransactions1588273086950
         onUpdate: 'CASCADE',
         onDelete: 'SET NULL',
       }),
-    );
+    )
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
-    await queryRunner.dropForeignKey('transactions', ' TransactionCategory');
-    await queryRunner.dropColumn('transactions', 'category_id');
+    await queryRunner.dropForeignKey('transactions', 'TransactionCategory')
+    await queryRunner.dropColumn('transactions', 'category_id')
   }
 }
